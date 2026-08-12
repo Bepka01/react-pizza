@@ -1,0 +1,58 @@
+@use '../../../styles/variables.scss' as *;
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: $radius-pill;
+
+  font-family: $font-main;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    transform: scale(0.97);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+.primary {
+  background-color: $orange;
+  color: $white;
+}
+
+.outline {
+  background-color: transparent;
+  color: $orange;
+  border: 1px solid $orange;
+
+  &:hover {
+    background-color: $orange;
+    color: $white;
+  }
+}
+
+.cart {
+  padding: 15px 25px;
+
+  background-color: $orange;
+  color: $white;
+}
