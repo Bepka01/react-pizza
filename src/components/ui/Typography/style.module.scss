@@ -1,0 +1,64 @@
+@use '../../../styles/variables.scss' as *;
+
+.typography {
+  margin: 0;
+  padding: 0;
+
+  font-family: $font-main;
+  color: $black;
+}
+
+// Обычный текст
+.regular {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+// Текст меню / категорий
+.menu {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+// Заголовок страницы
+.title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+// Заголовок карточки пиццы
+.productTitle {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+.description {
+  color: $gray;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+// Цена
+.productPrice {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+// Второстепенный текст
+.secondary {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
