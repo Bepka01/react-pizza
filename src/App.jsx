@@ -1,7 +1,13 @@
 import Header from './components/Header';
+import Categories from './components/Categories';
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Categories />
+    </>
+  );
 }
 
 export default App;
